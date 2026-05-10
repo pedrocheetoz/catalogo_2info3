@@ -3,12 +3,12 @@
   import { listaProdutos } from '@/data/produtos';
 import { formataPreco } from '@/utils/produtoUtils';
   const produtos = ref(listaProdutos)
-  produtos.value = produtos.value.filter(p => p.categoria === 'Brinquedos')
+  produtos.value = produtos.value.filter(p => p.categoria === 'Higiene')
 </script>
 
 <template>
   <div class="container">
-    <h1>Brinquedos</h1>
+    <h1>Higiene</h1>
     <div v-for="produto in produtos" :key="produto.id" class="produto-card">
       <div>
         <h2> {{ produto.nome }}</h2>

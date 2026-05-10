@@ -6,7 +6,8 @@
 <header>
   <router-link to="/">Home</router-link>
   <router-link to="/Alimentos">Alimentos</router-link>
-  <router-link to="/brinquedos"></router-link>
+  <router-link to="/brinquedos">Brinquedos</router-link>
+  <router-link to="/higiene">Higiene</router-link>
 </header>
 </template>
 
