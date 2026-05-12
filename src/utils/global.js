@@ -1,5 +1,5 @@
-const moedaPais = 'USD';
-const idioma = 'en-US';
+const moedaPais = 'BRL';
+const idioma = 'pt-BR';
 
 export {
   moedaPais, idioma

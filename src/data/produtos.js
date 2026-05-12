@@ -7,7 +7,7 @@ const produtos = [
   { id: 6, nome: 'Shampoo Pet', preco: 35, categoria: 'Higiene', imagem: '/images/shampoo.png' },
   { id: 7, nome: 'Tapete Higiênico', preco: 42, categoria: 'Higiene', imagem: '/images/tapete-higiene.png' },
   { id: 8, nome: 'Coleira Azul', preco: 28, categoria: 'Acessórios', imagem: '/images/coleira-azul.png' },
-  { id: 9, nome: 'Guia de Passeio', preco: 40, categoria: 'Acessórios', imagem: '/images/guia-passeio.png' }
+  { id: 9, nome: 'Guia de Passeio', preco: 40, categoria: 'Acessórios', imagem: '/images/guia-passeio.pngw' }
 ]
 
 export { produtos as listaProdutos }
